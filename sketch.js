@@ -17,7 +17,7 @@ function draw(){
     var rotationx = -QUARTER_PI - mousex;
     var elem = document.getElementById("canvas").innerHTML = w;
     background(100);
-    ortho( -400, 400, -400,400,0,1000);
+    ortho( -400, 400, -400,400,0,10000);
 
     //translate(0, 0, -100)
     rotateX(rotationx);
